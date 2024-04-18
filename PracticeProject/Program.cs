@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace PracticeProject
 {
-    internal class Program
+     public class Program
     {
-        static void Main(string[] args)
+        
+        public static void Main(string[] args)
         {
-            Console.WriteLine("angela is too good");
+            
+            Console.WriteLine("Enter a number to see the name");
+            int z = Convert. ToInt32(Console.ReadLine());
+
+            PracticeIfElse Obj = new PracticeIfElse();
+            Obj.printName(z);
         }
+     
     }
 }
